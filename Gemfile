@@ -26,7 +26,6 @@ gem 'turbolinks'
 group :development, :test do
     gem 'sqlite3'
 end
-gem 'ruby', '1.9.3'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 gem 'rails_12factor', group: :production
