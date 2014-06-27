@@ -4,7 +4,9 @@ DemoApp1::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
    root 'home#index'
-
+   get '/user' => 'home#new'
+   post '/users' => 'home#create'
+   get '/users' => 'home#show'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
